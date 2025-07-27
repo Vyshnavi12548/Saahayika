@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="Sahaayika AI Companion", page_icon="🌸", layout="centered")
 
 # --- Configuration ---
-gemini_api_key = os.getenv("GOOGLE_API_KEY") or "AIzaSyBxKCFSAzzncIGG98jiGqZV1fnt2LFSfQU"
+gemini_api_key = os.getenv("GOOGLE_API_KEY") or AIzaSyBxKCFSAzzncIGG98jiGqZV1fnt2LFSfQU
 
 if gemini_api_key:
     genai.configure(api_key=gemini_api_key)
